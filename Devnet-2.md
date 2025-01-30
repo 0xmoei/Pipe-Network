@@ -136,7 +136,7 @@ cd $HOME && cd pipe
 ./pop --gen-referral-route
 ```
 
-## Optional: Restart or Stop Node
+### Optional: Restart or Stop Node
 ```console
 # Stop
 sudo systemctl stop pipe
