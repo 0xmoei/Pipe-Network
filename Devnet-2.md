@@ -57,7 +57,7 @@ We create a systemd file to run the node by entering the following command.
 * `--ram 4`: Replace `4` with your favorite Ram you want to allocate. (e.g., `4` for 8GB).
 * `--max-disk 200`: Replace `200` with the hard disk you want to allocate. (e.g., `200` for 200GB).
 * `--pubKey SOLADDRESS`: Replace `SOLADDRESS` with your Solana Public Address. (You can use your old node generated Sol address)
-* Refer to System Requirements step for choosing better specifications
+* Refer to [System Requirements](https://github.com/0xmoei/Pipe-Network/blob/main/Devnet-2.md#system-requirements) step for choosing better specifications
 ```
 sudo tee /etc/systemd/system/pipe.service > /dev/null << EOF
 [Unit]
