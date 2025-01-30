@@ -68,11 +68,11 @@ Wants=network-online.target
 [Service]
 User=root
 Group=root
-WorkingDirectory=/root/pipenetwork
-ExecStart=/root/pipenetwork/pop \
+WorkingDirectory=/root/pipe
+ExecStart=/root/pipe/pop \
     --ram 4 \
     --max-disk 200 \
-    --cache-dir /root/pipenetwork/download_cache \
+    --cache-dir /root/pipe/download_cache \
     --pubKey SOLADDRESS \
     --signup-by-referral-route 24e2c57a307e69ba
 Restart=always
