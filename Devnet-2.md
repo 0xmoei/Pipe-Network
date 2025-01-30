@@ -135,3 +135,14 @@ You can share your referral to other people to signup with it when running the P
 cd $HOME && cd pipe
 ./pop --gen-referral-route
 ```
+
+## Optional: Restart or Stop Node
+```console
+# Stop
+sudo systemctl stop pipe
+
+# Restart
+sudo systemctl daemon-reload
+sudo systemctl enable pipe
+sudo systemctl restart pipe
+```
