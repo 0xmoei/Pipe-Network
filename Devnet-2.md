@@ -39,13 +39,9 @@ mkdir -p /root/pipe/download_cache/
 cd /root/pipe
 ```
 ### 2. Download Pipe binaries
-* Replace `LINK` with **Download PoP Node** url received in your email
 ```
-wget -O pop "LINK"
+wget -O pop "https://dl.pipecdn.app/v0.2.2/pop"
 ```
-
-![image](https://github.com/user-attachments/assets/16c72001-41af-4393-a41d-ef893c3d4c1e)
-
 
 ### 3. Make pop executable
 ```
