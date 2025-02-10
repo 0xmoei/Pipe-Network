@@ -40,7 +40,7 @@ cd /root/pipe
 ```
 ### 2. Download Pipe binaries
 ```
-wget -O pop "https://dl.pipecdn.app/v0.2.2/pop"
+wget -O pop "https://dl.pipecdn.app/v0.2.4/pop"
 ```
 
 ### 3. Make pop executable
